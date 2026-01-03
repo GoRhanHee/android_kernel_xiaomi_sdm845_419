@@ -30,6 +30,9 @@ LLVM=1 \
 LLVM_IAS=1 \
 ARCH=arm64 \
 -j16 \
+CC=clang \
+CLANG_TRIPLE=aarch64-linux-gnu- \
+CROSS_COMPILE=aarch64-linux-android- \
 O=out
 "
 
